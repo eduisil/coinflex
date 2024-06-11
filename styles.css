@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Coolvetica";
+  src: url("assets/fonts/coolvetica\ compressed\ hv.otf");
+}
+@font-face {
+  font-family: "Coolvetica-RG";
+  src: url("assets/fonts/coolvetica\ condensed\ rg.otf");
+}
+
+:root{
+  --primary-color: #e3ebeb;
+  --secundary-color: #04fb9b;
+  --tercary-color: #049c64;
+  --quarter-color: #043e2d;
+  --shadow-color: #167c68;
+  --dark-primary-color: #212529;
+}
+
+
+
+body {
+  background-color: var(--dark-primary-color);
+}
+
+h1 {
+  font-family: "Coolvetica";
+  font-size: 3.5rem;
+}
+
+.carousel-caption .d-flex h1 {
+  margin: 0;
+}
+
+#logan {
+  color: white;
+}
+
+#slogan {
+  color: var(--secundary-color);
+}
+
+.carousel p {
+  color: var(--dark-primary-color);
+  background-color: var(--secundary-color);
+  font-size: 1.3rem;
+  display: inline;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  .whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+  }
